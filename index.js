@@ -1,5 +1,4 @@
 let id;
-var api_key = config.api_key;
 const API_URL = `https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2021-01-24&primary_release_date.lte=2021-01-31&api_key=${api_key}&page=1`;
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280';
 const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query="`;
