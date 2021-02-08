@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Movie Database App</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+          alt="my-top-movies"
+        />
+      </div>
+      <button class="btn home">Home</button>
+      <button class="btn credits">Credits</button>
+      <form id="form">
+        <input type="text" id="search" class="search" placeholder="Search" />
+      </form>
+    </header>
+    <div class="modal-container">
+      <div class="modal-credits">
+       <button class="closeBtn" id="closeBtn">X</button>
+        <h1 class="moveUp">Resources Used:</h1>
+        <h2 class="moveUp">Scrimba Learning Platform 😊</h2>
+        <h2 class="moveUp">API:</h2>
+        <h2 class="moveUp">
+          <a href="https://www.themoviedb.org/" target="blank"
+            >https://www.themoviedb.org/</a
+          >
+        </h2>
+
+        <h2 class="moveUp">
+          Logo and default image:
+          <a href="https://unsplash.com/" target="blank"
+            >https://unsplash.com/</a
+          >
+        </h2>
+
+        <h2 class="moveUp">
+          Emojis used:
+        </h2>
+          <p class="moveUp"><a href="https://emojipedia.org/smiling-face-with-smiling-eyes/" target="blank"
+            >https://emojipedia.org/smiling-face-with-smiling-eyes/</a
+          ></p>
+          <p class="moveUp"><a href="https://fsymbols.com/signs/stars/" target="blank"
+            >https://fsymbols.com/signs/stars/</a
+          ></p>
+        </h2>
+       <h2 class="moveUp">Using Git for frequent commits,<a href="https://www.google.com/" target="blank">Google</a> and<a href="https://developer.mozilla.org/en-US/" target="blank"> MDN</a> for research.</h2>
+
+        <h2 class="moveUp">Created, tested and debugged by:</h2>
+        <h2 class="moveUp gold">Edward Production Studios 😊</h2>
+        <h3 class="moveUp gold">THE END</h3>
+      </div>
+    </div>
+    <div class="container">
+      <aside class="categories">
+        <div class="category">Action</div>
+        <div class="category">Adventure</div>
+        <div class="category">Animation</div>
+        <div class="category">Comedy</div>
+        <div class="category">Crime</div>
+        <div class="category">Documentary</div>
+        <div class="category">Drama</div>
+        <div class="category">Family</div>
+        <div class="category">Fantasy</div>
+        <div class="category">History</div>
+        <div class="category">Horror</div>
+        <div class="category">Music</div>
+        <div class="category">Mystery</div>
+        <div class="category">Romance</div>
+        <div class="category">Science Fiction</div>
+        <div class="category">TV Movie</div>
+        <div class="category">Thriller</div>
+        <div class="category">War</div>
+        <div class="category" style="margin-bottom: 5rem;">Western</div>
+       
+        <div class="category" id="best_dramas">Best Dramas</div>
+        <div class="category" id="best_of_2020">Best Movies from 2020</div>
+        <div class="category" id="best_kids_movies">Most popular Kids Movies</div>
+        
+        <p class="category">Customize our Website:</p>
+        
+        <p style="color: white;">Choose primary color:</p>
+        <input type="color" class="category primary-color-picker">
+        
+        <p style="color: white;">Choose secondary color:</p>
+        <input type="color" class="category secondary-color-picker">
+        
+        <p style="color: white;">Choose accent color:</p>
+        <input type="color" class="category accent-color-picker">
+        
+        <button class="category reset">Reset</button>
+      </aside>
+      <main id="main"></main>
+    </div>
+    <script type='text/javascript' src='config.js'></script>
+    <script src="index.js"></script>
+  </body>
+</html>
